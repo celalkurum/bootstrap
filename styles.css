@@ -1,0 +1,72 @@
+/* Custom CSS for Modern Bootstrap Website */
+
+/* Hero Section Styles */
+.hero-section {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://source.unsplash.com/random/1920x1080?website') no-repeat center center;
+    background-size: cover;
+    color: white;
+    margin-bottom: 0;
+    padding-top: 80px;
+}
+
+/* Navigation Styles */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Service Cards Styles */
+.service-card {
+    transition: transform 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-card i {
+    color: #007bff;
+}
+
+/* Contact Form Styles */
+.form-control {
+    border-radius: 0;
+    border: 1px solid #ddd;
+    padding: 0.8rem;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #007bff;
+}
+
+.btn {
+    border-radius: 0;
+    padding: 0.8rem 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        height: 80vh;
+    }
+    
+    .display-4 {
+        font-size: 2.5rem;
+    }
+}
